@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -19,4 +19,166 @@
 
 .App-link {
   color: #09d3ac;
+}*/
+body {
+    font-family: 'Lucida Sans Unicode';
+    background-color: #08650a;
+    color: #fff;
+    background: -webkit-linear-gradient(315deg, #08650a 0%, #08650a 74%);
+    background: linear-gradient(315deg, #08650a 0%, #08650a 74%);
+}
+
+button {
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    max-width:100px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button.betamount {
+    display: block;
+    background: #ADD8E6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px dotted black;
+}
+
+button.new{
+    max-width:180px;
+    margin-left: -90px;
+    font-size: 22px;
+    background: #FF0000;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    float: right;
+    border: none;
+}
+
+button.placebet{
+    width: 99px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    /*font-size: 50px;*/
+}
+h2{
+    margin-right: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.card,
+.card-red {
+    position: relative;
+    background-color: #fff;
+    height: 150px;
+    width: 100px;
+    border: 0px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.top {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    /*text-align: left;*/
+}
+
+.empty{
+    position: relative;
+    height: 150px;
+    width: 100px;
+    border: 0px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-image: url("card-bg.jpg");
+    background-size: contain;
+}
+.bottom {
+    position: absolute;
+    right: 8%;
+    bottom: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transform: rotate(180deg);
+    /*text-align: right;*/
+}
+
+.card-red {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.message{
+    color: yellow;
+    margin-right: 20px;
+    font-size: 22px;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.cards {
+    color: #000000;
+    margin: 0 auto;
+}
+
+.input-bet {
+    display: flex;
+    justify-content: center;
 }
