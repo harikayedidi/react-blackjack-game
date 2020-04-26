@@ -1,10 +1,5 @@
-My First attempt at developing a game in React.
+First attempt at developing a game in React. It works, might not be perfect. I'll plan on fixing the issues soon.
 
 <a href="https://novice-blackjack-react.netlify.com/">Play Blackjack!</a>
-
-Disclaimer: 
-
-- Got inspired from various developers/code to build this one.
-- Will plan on making it look better soon.
 
 Thanks for visiting! :)
